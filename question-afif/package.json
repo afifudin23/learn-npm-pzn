@@ -1,9 +1,9 @@
 {
     "name": "question-afif",
-    "version": "1.0.0",
-    "description": "Main folder to learn npm",
+    "version": "1.0.3",
+    "description": "Package to learn npmjs Afif",
     "exports": {
-        ".": "./main.js",
+        ".": "./index.js",
         "./question": "./question.js"
     },
     "scripts": {
@@ -19,6 +19,7 @@
     "keywords": [
         "learn_npm",
         "afifudin23",
+        "question-afif",
         "programmer_zaman_now"
     ],
     "type": "module",

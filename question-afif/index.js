@@ -1,4 +1,6 @@
-import {nama, umur} from "main-folder/question"
+import {nama, umur} from "question-afif/question"
 
-console.log(`Nama saya adalah ${nama} dan umur saya ${umur} tahun`);
-console.log(`Type nama : ${typeof nama} Type umur : ${typeof umur}`);
+export const print = () => {
+    console.log(`Nama saya adalah ${nama} dan umur saya ${umur} tahun`);
+    console.log(`Type nama : ${typeof nama} Type umur : ${typeof umur}`);
+}
